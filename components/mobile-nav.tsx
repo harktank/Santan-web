@@ -24,7 +24,7 @@ export function MobileNav() {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Sanatan Heritage</span>
-              <img className="h-8 w-auto" src="/images/navbar-logo.jpeg" alt="Sanatan Heritage Logo" />
+              <img className="h-8 w-auto" src="/images/sanatan-logo.png" alt="Sanatan Shiksha Logo" />
             </Link>
             <button type="button" className="-m-2.5 rounded-md p-2.5 text-gray-700" onClick={() => setIsOpen(false)}>
               <span className="sr-only">Close menu</span>
@@ -68,13 +68,6 @@ export function MobileNav() {
                   onClick={() => setIsOpen(false)}
                 >
                   Sanatan Viswavidyalaya
-                </Link>
-                <Link
-                  href="/events"
-                  className="block px-6 py-4 text-orange-700 hover:bg-orange-50 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Events
                 </Link>
                 <Link
                   href="/blog"

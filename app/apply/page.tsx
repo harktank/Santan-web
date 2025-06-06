@@ -116,7 +116,7 @@ export default function ApplyPage() {
             <Link href="/" className="flex items-center space-x-4">
               <div className="w-12 h-12 rounded-full overflow-hidden shadow-md">
                 <img
-                  src="/images/navbar-logo.jpeg"
+                  src="/images/navbar-logo.png"
                   alt="Sanatan Shankhanad Logo"
                   className="w-full h-full object-cover"
                 />

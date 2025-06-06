@@ -25,12 +25,12 @@ export default function HomePage() {
       <header className="bg-white/90 backdrop-blur-md shadow-lg sticky top-0 z-50 transition-all duration-300 w-full">
         <div className="flex flex-row items-center h-16 w-full">
           {/* Logo - absolutely left */}
-          <div className="flex items-center flex-shrink-0 ml-0 pl-0 h-16 px-4">
+          <div className="flex items-center flex-shrink-0 ml-6 pl-0 h-16 px-4">
             <Link href="/" className="flex items-center space-x-3 group ml-0 pl-0">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden shadow-md transform transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl">
                 <img
-                  src="/images/navbar-logo.jpeg"
-                  alt="Sanatan Shankhanad Logo"
+                  src="/images/navbar-logo.png"
+                  alt="Sanatan Shiksha Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -54,7 +54,6 @@ export default function HomePage() {
               <Link href="#" className="text-orange-700 hover:text-orange-600 transition-all duration-300 transform hover:scale-105">Sanatan Sishushala</Link>
               <Link href="#" className="text-orange-700 hover:text-orange-600 transition-all duration-300 transform hover:scale-105">Sanatan Gurukulam</Link>
               <Link href="#" className="text-orange-700 hover:text-orange-600 transition-all duration-300 transform hover:scale-105">Sanatan Viswavidyalaya</Link>
-              <Link href="/events" className="text-orange-700 hover:text-orange-600 transition-all duration-300 transform hover:scale-105">Events</Link>
               <Link href="/blog" className="text-orange-700 hover:text-orange-600 transition-all duration-300 transform hover:scale-105">Blog</Link>
               <Link href="/contact" className="text-orange-700 hover:text-orange-600 transition-all duration-300 transform hover:scale-105">Contact</Link>
             </div>
@@ -70,7 +69,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000"
           style={{
-            backgroundImage: "url('/images/navbar-logo.jpeg')",
+            backgroundImage: "url('/images/sanatan-logo.png')",
             transform: `translateY(${scrollY * 0.3}px)`,
             backgroundPosition: "center 30%",
           }}
@@ -294,9 +293,9 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             <div className="transform transition-all duration-500 hover:scale-105 col-span-2 md:col-span-1">
               <div className="flex items-center space-x-3 mb-4 group">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center transform transition-all duration-300 group-hover:rotate-12">
-                  <Sparkles className="w-4 h-4 md:w-6 md:h-6 text-white" />
-                </div>
+              <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center transform transition-all duration-300 group-hover:rotate-12">
+                    <img src="/images/navbar-logo.png" alt="Sanatan Shankhnaad Logo" className="w-full h-full object-cover" />
+                      </div>
                 <span className="text-lg md:text-xl font-bold group-hover:text-orange-200 transition-colors duration-300">
                   Sanatan Shankhnaad
                 </span>
@@ -313,7 +312,7 @@ export default function HomePage() {
                     href="#"
                     className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                   >
-                    Sishushala
+                 Sanatan Sishushala
                   </Link>
                 </li>
                 <li>
@@ -321,7 +320,7 @@ export default function HomePage() {
                     href="#"
                     className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                   >
-                    Gurukulam
+                  Sanatan Gurukulam
                   </Link>
                 </li>
                 <li>
@@ -329,7 +328,7 @@ export default function HomePage() {
                     href="#"
                     className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                   >
-                    Viswavidyalaya
+                   Sanatan Viswavidyalaya
                   </Link>
                 </li>
               </ul>
@@ -337,14 +336,6 @@ export default function HomePage() {
             <div className="transform transition-all duration-500 delay-200 hover:scale-105">
               <h4 className="font-bold mb-3 md:mb-4 text-orange-100">Community</h4>
               <ul className="space-y-1 md:space-y-2 text-orange-200 text-sm md:text-base">
-                <li>
-                  <Link
-                    href="/events"
-                    className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
-                  >
-                    Events
-                  </Link>
-                </li>
                 <li>
                   <Link
                     href="/blog"
@@ -395,7 +386,7 @@ export default function HomePage() {
           </div>
           <div className="border-t border-orange-800 mt-6 md:mt-8 pt-6 md:pt-8 text-center text-orange-200">
             <p className="hover:text-white transition-colors duration-300 text-sm">
-              &copy; 2024 AITIK SOFTWARE PVT. LTD. All rights reserved.
+              &copy; 2025 All rights reserved, Developed by AITIK SOFTWARE.
             </p>
           </div>
         </div>

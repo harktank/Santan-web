@@ -102,11 +102,11 @@ export default function BlogPage() {
      <header className="bg-white/90 backdrop-blur-md shadow-lg sticky top-0 z-50 transition-all duration-300 w-full">
         <div className="flex flex-row items-center h-16 w-full">
           {/* Logo - absolutely left */}
-          <div className="flex items-center flex-shrink-0 ml-0 pl-0 h-16 px-4">
+          <div className="flex items-center flex-shrink-0 ml-6 pl-0 h-16 px-4">
             <Link href="/" className="flex items-center space-x-3 group ml-0 pl-0">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden shadow-md transform transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl">
                 <img
-                  src="/images/navbar-logo.jpeg"
+                  src="/images/navbar-logo.png"
                   alt="Sanatan Shankhanad Logo"
                   className="w-full h-full object-cover"
                 />
@@ -131,7 +131,7 @@ export default function BlogPage() {
               <Link href="/" className="text-orange-700 hover:text-orange-600 transition-colors">Sanatan Sishushala</Link>
               <Link href="/" className="text-orange-700 hover:text-orange-600 transition-colors">Sanatan Gurukulam</Link>
               <Link href="/" className="text-orange-700 hover:text-orange-600 transition-colors">Sanatan Viswavidyalaya</Link>
-              <Link href="/events" className="text-orange-700 hover:text-orange-600 transition-colors">Events</Link>
+             
               <Link href="/blog" className="text-orange-700 hover:text-orange-600 transition-colors">Blog</Link>
               <Link href="/contact" className="text-orange-700 hover:text-orange-600 transition-colors">Contact</Link>
             </div>
@@ -296,9 +296,9 @@ export default function BlogPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             <div className="transform transition-all duration-500 hover:scale-105 col-span-2 md:col-span-1">
               <div className="flex items-center space-x-3 mb-4 group">
-                <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center transform transition-all duration-300 group-hover:rotate-12">
-                  <Sparkles className="w-4 h-4 md:w-6 md:h-6 text-white" />
-                </div>
+              <div className="w-8 h-8 md:w-10 md:h-10 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center transform transition-all duration-300 group-hover:rotate-12">
+                    <img src="/images/navbar-logo.png" alt="Sanatan Shankhnaad Logo" className="w-full h-full object-cover" />
+                      </div>
                 <span className="text-lg md:text-xl font-bold group-hover:text-orange-200 transition-colors duration-300">
                   Sanatan Shankhnaad
                 </span>
@@ -315,7 +315,7 @@ export default function BlogPage() {
                     href="#"
                     className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                   >
-                    Sishushala
+                  Sanatan Sishushala
                   </Link>
                 </li>
                 <li>
@@ -323,7 +323,7 @@ export default function BlogPage() {
                     href="#"
                     className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                   >
-                    Gurukulam
+                  Sanatan Gurukulam
                   </Link>
                 </li>
                 <li>
@@ -331,7 +331,7 @@ export default function BlogPage() {
                     href="#"
                     className="hover:text-white transition-all duration-300 hover:translate-x-1 inline-block"
                   >
-                    Viswavidyalaya
+                  Sanatan Viswavidyalaya
                   </Link>
                 </li>
               </ul>
@@ -390,7 +390,7 @@ export default function BlogPage() {
           </div>
           <div className="border-t border-orange-800 mt-6 md:mt-8 pt-6 md:pt-8 text-center text-orange-200">
             <p className="hover:text-white transition-colors duration-300 text-sm">
-              &copy; 2024 AITIK SOFTWARE PVT. LTD. All rights reserved.
+              &copy; 2025 All rights reserved, Developed by AITIK SOFTWARE.
             </p>
           </div>
         </div>
